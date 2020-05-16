@@ -16,12 +16,12 @@ class AnonymousSignInButton extends StatelessWidget {
         context.read<SignInViewModel>().signInAnonymously();
       },
       padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
-      color: Colors.red[900],
+      color: Colors.purpleAccent,
       child: Text(
         Strings.anonymousSignUp,
         textAlign: TextAlign.center,
         style: TextStyle(
-          fontSize: 14,
+          fontSize: 20,
           color: Colors.white,
         ),
       ),
